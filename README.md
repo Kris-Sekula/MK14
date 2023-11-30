@@ -1,2 +1,5 @@
 # MK14
-Few projects related to Science of Cambridge (Sinclair) MK14
+A few projects related to the "Science of Cambridge" (Sinclair) MK14 "computer".
+
+The first project listed here is the combined ROM/RAM/Kitbug adapter PCB. 
+
