@@ -1,0 +1,17 @@
+CHIP kitbug gal16v8
+GND A7 A8 A9 A10 A11 GND GND GND GND
+GND /ROMCS /RAMCS Q3 Q4 Q5 Q6 SIN SOUT VCC
+EQUATIONS
+SOUT = /SIN
+SOUT.oe = VCC
+ROMCS = /A11
+ROMCS.oe = VCC
+RAMCS = A11
+
+RAMCS.oe = VCC
+; 2k ROM 000-7FF for KitbugPlus
+; 2k RAM 800-FFF
+; A0-A10 to rom
+; A11 divides 4k into 2 x 2k
+; 0 rom
+; 1 ram
